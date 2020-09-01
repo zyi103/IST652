@@ -30,7 +30,7 @@ function. What does it return and why?
 
 ##### [1 point]
 
-```python
+```{.python .input  n=1}
 # Enter your code here, printing relevant answers to console:
 x = 11110
 x = x + 1
@@ -40,6 +40,16 @@ print(x)
 # x will return 11111 because we first assigned x to be 11110 then we did + 1, which equal to 11111
 
 
+```
+
+```{.json .output n=1}
+[
+ {
+  "name": "stdout",
+  "output_type": "stream",
+  "text": "11111\n"
+ }
+]
 ```
 
 ----
@@ -58,7 +68,7 @@ and its data type.
 
 ##### [1 point]
 
-```python
+```{.python .input  n=8}
 # Enter your code here, printing relevant answers to console:
 
 width = 17
@@ -71,6 +81,16 @@ print(height / 2.0, type(height / 2.0))
 print(width / height, type(width / height))
 
 
+```
+
+```{.json .output n=8}
+[
+ {
+  "name": "stdout",
+  "output_type": "stream",
+  "text": "8.5 <class 'float'>\n8.5 <class 'float'>\n24.0 <class 'float'>\n6.0 <class 'float'>\n1.4166666666666667 <class 'float'>\n"
+ }
+]
 ```
 
 ---
@@ -87,7 +107,7 @@ as:
 
 ##### [1 point]
 
-```python
+```{.python .input  n=15}
 # Enter your code here, printing relevant answers to console:
 
 hrs = float(input("Enter Hours: "))
@@ -97,6 +117,16 @@ print("Pay: ", hrs * rate)
 
 
 
+```
+
+```{.json .output n=15}
+[
+ {
+  "name": "stdout",
+  "output_type": "stream",
+  "text": "Enter Hours: 2 \nEnter Rate: 23\nPay:  46.0\n"
+ }
+]
 ```
 
  ----
@@ -111,7 +141,7 @@ print("Pay: ", hrs * rate)
 
 ##### [1 point]
 
-```python
+```{.python .input  n=40}
 # Enter your code here, printing relevant answers to console:
 
 hrs = float(input("Enter Hours: "))
@@ -119,6 +149,16 @@ rate = float(input("Enter Rate: "))
 print("Pay: ", hrs * rate + (0 if (hrs < 40) else (hrs - 40) * 1.5))
 
 
+```
+
+```{.json .output n=40}
+[
+ {
+  "name": "stdout",
+  "output_type": "stream",
+  "text": "Enter Hours: 50\nEnter Rate: 1\nPay:  65.0\n"
+ }
+]
 ```
 
 ---
@@ -137,7 +177,7 @@ Submit your list, your code and an example run.
 
 ##### [1 point]
 
-```python
+```{.python .input  n=45}
 # Enter your code here, printing relevant answers to console:
 
 samples = ['java', 'python', 'C', 'go', 'js', 'ruby', 'C#', 'PHP']
@@ -147,6 +187,16 @@ for string in samples:
         print(string)
 
 
+```
+
+```{.json .output n=45}
+[
+ {
+  "name": "stdout",
+  "output_type": "stream",
+  "text": "java\npython\nruby\nPHP\n"
+ }
+]
 ```
 
 #### ( 6 ) Again suppose that there is a list of strings defined, called
@@ -163,7 +213,7 @@ Submit your list, your code and an example run.
 
 ##### [1 point]
 
-```python
+```{.python .input  n=52}
 # Enter your code here, printing relevant answers to console:
 
 samples = ['java', 'python', 'C', 'go', 'js', 'ruby', 'C#', 'PHP']
@@ -186,4 +236,14 @@ print("Strings thats Less Than Five:", *lessThanFive)
 
 
 
+```
+
+```{.json .output n=52}
+[
+ {
+  "name": "stdout",
+  "output_type": "stream",
+  "text": "java\nruby\nPHP\nStrings thats Greater Than Two: java python ruby PHP\nStrings thats Less Than Five: java C go js ruby C# PHP\n"
+ }
+]
 ```
